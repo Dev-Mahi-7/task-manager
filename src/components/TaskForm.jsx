@@ -36,7 +36,7 @@ export default function TaskForm() {
 
       <div className="flex gap-2">
         <select
-          className="border text-xl outline-0 border-gray-200 cursor-pointer p-2 w-1/3"
+          className="border text-xl outline-0 border-gray-200 cursor-pointer p-2  md:w-1/3"
           value={priority}
           onChange={(e) => setPriority(e.target.value)}
         >
@@ -46,7 +46,7 @@ export default function TaskForm() {
         </select>
 
         <input
-          className="border text-xl border-gray-200 outline-0 px-4 py-2 flex-1"
+          className="border text-xl w-30 border-gray-200 outline-0 px-4 py-2 flex-1"
           placeholder="Assigned user"
           value={assignedTo}
           onChange={(e) => setAssignedTo(e.target.value)}

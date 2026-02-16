@@ -12,18 +12,18 @@ export default function TaskItem({ task }) {
 
   return (
     <div
-      className={`flex justify-between items-center p-3 border border-gray-200 ${
+      className={`flex justify-between items-center p-3 gap-2 border border-gray-200 ${
         task.completed ? "bg-green-100 line-through opacity-60" : "bg-white"
       }`}
     >
       <div>
-        <h3 className="font-semibold">{task.title}</h3>
-        <p className="text-sm text-gray-500">
+        <h3 className="font-semibold text-sm md:text-base text-justify ">{task.title}</h3>
+        <p className="text-xs md:text-sm text-gray-500">
           {task.assignedTo || "Unassigned"}
         </p>
       </div>
 
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-2 md:gap-6">
         <span className={`px-2 py-1 font-bold rounded text-xs ${priorityColors[task.priority]}`}>
           {task.priority}
         </span>
