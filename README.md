@@ -1,12 +1,13 @@
 # 📝 Task Manager App
 
-A modern and responsive Task Manager application built using **React**, **TailwindCSS**, and **Context API**.  
+A modern and responsive Task Manager application built using React, Tailwindcss and Context API.  
 This app allows users to manage daily tasks efficiently with features like task creation, filtering, completion tracking, and persistent storage.
 
 ---
 
 ## 🚀 Live Demo
-👉 (Add your deployed link here — e.g. Vercel)
+
+👉 https://task-manager-ten-azure-26.vercel.app/
 
 ---
 
@@ -20,6 +21,7 @@ The goal was to build a clean, scalable, and user-friendly task management appli
 ## ✨ Features
 
 ### ✅ Core Features
+
 - 📋 Display list of tasks
 - ➕ Add new task with validation
 - 🔄 Toggle task completion status
@@ -28,6 +30,7 @@ The goal was to build a clean, scalable, and user-friendly task management appli
 - 🎨 Completed tasks visually distinct
 
 ### ⭐ Bonus Features
+
 - 💾 Persistent storage using **localStorage**
 - 🗑️ Delete task functionality
 - 🆕 Latest tasks appear first
@@ -64,19 +67,15 @@ src/
 ├── App.jsx
 └── main.jsx
 
-
-
 ---
 
 ## ⚙️ Setup & Installation
 
-
-
 ```bash
 
-### 1 Git clone repo 
+### 1 Git clone repo
 
-git clone 
+git clone https://github.com/Dev-Mahi-7/task-manager.git
 cd task-manager
 
 ### 2 install dependencies
@@ -87,3 +86,4 @@ npm run dev
 
 App will run at:
 http://localhost:5173
+```
