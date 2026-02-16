@@ -47,6 +47,10 @@ The goal was to build a clean, scalable, and user-friendly task management appli
 
 ---
 
+## External Lib
+- react-icons
+- react-toastify
+
 ## 📂 Folder Structure
 
 src/
